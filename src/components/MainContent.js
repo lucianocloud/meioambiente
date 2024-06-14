@@ -44,11 +44,11 @@ const MainContent = () => {
           Oferecemos uma variedade de serviços para ajudar empresas e indivíduos a adotarem práticas mais sustentáveis e reduzir seu impacto ambiental. Nossos serviços incluem:
         </p>
         <ul>
-          <li><strong>Consultoria Ambiental:</strong> Nossos especialistas fornecem consultoria personalizada para ajudar sua empresa a implementar práticas sustentáveis e cumprir com as regulamentações ambientais.</li>
-          <li><strong>Programas de Reciclagem:</strong> Desenvolvemos e gerenciamos programas de reciclagem para comunidades e empresas, facilitando a redução de resíduos e promovendo a reutilização de materiais.</li>
-          <li><strong>Educação e Workshops:</strong> Oferecemos workshops e programas educacionais para escolas, comunidades e empresas, abordando temas como reciclagem, conservação de água e energia, e muito mais.</li>
-          <li><strong>Auditorias Ambientais:</strong> Realizamos auditorias ambientais detalhadas para avaliar o impacto ambiental de sua empresa e identificar oportunidades para melhorias.</li>
-          <li><strong>Projetos de Conservação:</strong> Trabalhamos em colaboração com organizações locais e internacionais para desenvolver e implementar projetos de conservação que protejam ecossistemas e espécies ameaçadas.</li>
+          <strong>Consultoria Ambiental:</strong> Nossos especialistas fornecem consultoria personalizada para ajudar sua empresa a implementar práticas sustentáveis e cumprir com as regulamentações ambientais.
+          <strong>Programas de Reciclagem:</strong> Desenvolvemos e gerenciamos programas de reciclagem para comunidades e empresas, facilitando a redução de resíduos e promovendo a reutilização de materiais.
+          <strong>Educação e Workshops:</strong> Oferecemos workshops e programas educacionais para escolas, comunidades e empresas, abordando temas como reciclagem, conservação de água e energia, e muito mais.
+          <strong>Auditorias Ambientais:</strong> Realizamos auditorias ambientais detalhadas para avaliar o impacto ambiental de sua empresa e identificar oportunidades para melhorias.
+          <strong>Projetos de Conservação:</strong> Trabalhamos em colaboração com organizações locais e internacionais para desenvolver e implementar projetos de conservação que protejam ecossistemas e espécies ameaçadas.
         </ul>
         <p>
           Entre em contato conosco para saber mais sobre como nossos serviços podem ajudar você ou sua empresa a contribuir para um futuro mais sustentável.
