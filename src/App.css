@@ -19,6 +19,14 @@ main {
   padding-bottom: 80px; /* Adicionar padding inferior para evitar sobreposição do rodapé */
 }
 
+.section {
+  padding: 20px;
+  color: white;
+  background-color: #2e7d32; /* Fundo verde */
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
 .main-image {
   width: 100%;
   max-width: 600px;
@@ -33,7 +41,7 @@ main {
 }
 
 .environment-section h1 {
-  color: #2e7d32;
+  color: #ffffff;
 }
 
 .environment-section p {
@@ -78,7 +86,7 @@ main {
 }
 
 .additional-content h2 {
-  color: #2e7d32;
+  color: #ffffff;
 }
 
 .additional-content p {
@@ -105,4 +113,19 @@ footer {
   width: 100%;
   bottom: 0;
   text-align: center;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffcc00; /* Cor de hover (amarelo) */
 }

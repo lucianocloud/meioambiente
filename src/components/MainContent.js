@@ -4,12 +4,13 @@ import image1 from '../assets/image1.jpg';
 import image2 from '../assets/image2.jpg';
 import image3 from '../assets/image3.jpg';
 import image4 from '../assets/image4.jpg';
+import './MainContent.css';
 
 const MainContent = () => {
   return (
     <main>
-      <img src={yourImage} alt="Main Content" className="main-image" />
-      <section className="environment-section">
+      <section id="home" className="section home-section">
+        <img src={yourImage} alt="Main Content" className="main-image" />
         <h1>Importância da Preservação Ambiental</h1>
         <p>
           A preservação do meio ambiente é essencial para garantir a qualidade de vida das futuras gerações. 
@@ -24,6 +25,67 @@ const MainContent = () => {
           É responsabilidade de todos nós cuidar do planeta e garantir que ele permaneça habitável e saudável 
           para as próximas gerações.
         </p>
+      </section>
+      <section id="about" className="section about-section">
+        <h2>Sobre Nós</h2>
+        <p>
+          Nós somos uma organização dedicada à preservação ambiental. Nossa missão é educar e inspirar pessoas a adotarem práticas sustentáveis para proteger o planeta. Desde nossa fundação, temos trabalhado incansavelmente para aumentar a conscientização sobre questões ambientais e promover ações que contribuem para um futuro mais verde.
+        </p>
+        <p>
+          Acreditamos que a mudança começa com a educação. Por isso, oferecemos programas educacionais, workshops e eventos comunitários para informar e envolver pessoas de todas as idades. Nossa equipe é composta por especialistas apaixonados pelo meio ambiente e comprometidos em fazer a diferença.
+        </p>
+        <p>
+          Ao unir forças com outras organizações, empresas e indivíduos, estamos construindo uma rede de defensores do meio ambiente que trabalham juntos para promover a sustentabilidade e proteger os recursos naturais para as gerações futuras.
+        </p>
+      </section>
+      <section id="services" className="section services-section">
+        <h2>Serviços</h2>
+        <p>
+          Oferecemos uma variedade de serviços para ajudar empresas e indivíduos a adotarem práticas mais sustentáveis e reduzir seu impacto ambiental. Nossos serviços incluem:
+        </p>
+        <ul>
+          <li><strong>Consultoria Ambiental:</strong> Nossos especialistas fornecem consultoria personalizada para ajudar sua empresa a implementar práticas sustentáveis e cumprir com as regulamentações ambientais.</li>
+          <li><strong>Programas de Reciclagem:</strong> Desenvolvemos e gerenciamos programas de reciclagem para comunidades e empresas, facilitando a redução de resíduos e promovendo a reutilização de materiais.</li>
+          <li><strong>Educação e Workshops:</strong> Oferecemos workshops e programas educacionais para escolas, comunidades e empresas, abordando temas como reciclagem, conservação de água e energia, e muito mais.</li>
+          <li><strong>Auditorias Ambientais:</strong> Realizamos auditorias ambientais detalhadas para avaliar o impacto ambiental de sua empresa e identificar oportunidades para melhorias.</li>
+          <li><strong>Projetos de Conservação:</strong> Trabalhamos em colaboração com organizações locais e internacionais para desenvolver e implementar projetos de conservação que protejam ecossistemas e espécies ameaçadas.</li>
+        </ul>
+        <p>
+          Entre em contato conosco para saber mais sobre como nossos serviços podem ajudar você ou sua empresa a contribuir para um futuro mais sustentável.
+        </p>
+      </section>
+      <section id="contact" className="section contact-section">
+        <h2>Contato</h2>
+        <p>
+          Entre em contato conosco para saber mais sobre como você pode ajudar a proteger o meio ambiente.
+        </p>
+        <form className="contact-form">
+          <div className="form-group">
+            <label htmlFor="firstName">Nome:</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="lastName">Sobrenome:</label>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="address">Endereço:</label>
+            <input type="text" id="address" name="address" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="city">Cidade:</label>
+            <input type="text" id="city" name="city" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="state">Estado:</label>
+            <input type="text" id="state" name="state" required />
+          </div>
+          <button type="submit" className="submit-button">Enviar</button>
+        </form>
       </section>
       <section className="images-section">
         <h2>Imagens Relacionadas ao Meio Ambiente</h2>
