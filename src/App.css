@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2e7d32; /* Fundo verde */
+}
+
+.logo {
+  height: 40px;
+}
+
+main {
+  padding: 20px;
+  padding-bottom: 80px; /* Adicionar padding inferior para evitar sobreposição do rodapé */
+}
+
+.main-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.environment-section {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.environment-section h1 {
+  color: #2e7d32;
+}
+
+.environment-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.images-section {
+  margin-top: 40px;
+}
+
+.images-section h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.flex-image {
+  width: 100%;
+  max-width: 150px;  /* Diminuir o tamanho máximo das imagens */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.flex-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.additional-content {
+  text-align: left;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.additional-content h2 {
+  color: #2e7d32;
+}
+
+.additional-content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.additional-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.additional-content ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+footer {
+  padding: 10px;
+  background-color: #2e7d32; /* Fundo verde */
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
